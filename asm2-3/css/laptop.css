@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    
+}
+
+
+.image{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+ul {
+    list-style-type: none;
+    
+}
+.img-thumbnail{
+    height: none;
+}
+.nav{
+    color:var(#6c757d)
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+/* section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    
+    padding: 30px 50px;
+} 
+
+/*icon*/
+.iconcuaphanthongtin{
+    display: flex;
+}
+.icon {
+    color: rgb(44, 132, 227);
+    font-size: 25px;
+}
+.icon1{
+    color: rgb(44, 132, 227);
+    font-size: 20px;
+}
+.icon2{
+    color: #0dcaf0;
+    font-size: 20px;
+}
+
+.thongtin1{
+    font-weight: bold;
+}
+#personal-info{
+    background-color: #dee2e6;
+}
+.dayla{
+    display: flex;
+    align-items: flex-start;
+}
+.ic-toolbox,.ic-tools-2,.ic-mic,.ic-pencil,.ic-telescope{
+    font-size: 50px;
+}
+.indam{
+    list-style-type: disc ;
+    
+}
+li::marker{
+    color:rgb(44, 132, 227);
+    font-size: 30px;
+}
+
+.iconaround {
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px rgb(0, 183, 255) solid;
+    justify-content: center;
+    align-items: center;
+}
+.chubackgroundxanh1{
+    
+    
+    width: 70px;
+    border-radius: 20%;
+    border: 1px #0d6efd solid;
+    justify-content: center;
+    align-items: center;
+}
+.mucdo {
+    background: #199cdb;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    padding-top: 1px;
+}
+.mucdo1 {
+    background: rgb(225, 225, 225);
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    padding-top: 1px;
+}
+.hinhanhchungchi2 {
+    
+    padding-left: 50px;
+    
+}
+.hinhanhchungchi3 {
+    grid-column: 1/-1;
+    border-top: 1px solid #d6c08d;
+    padding-top: 50px;
+    
+}
+.banner {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/banner.jpg);
+    background-size: cover;
+    height:600px;
+    max-width: 100%;
+    
+    
+    text-align: center;
+    
+    
+}
+.thisispicture {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* thiết lập dao diện laptop cho web */
+@media (max-width: 1280px) {
+body {
+    font-size: 12px;
+    
+}
+.banner{
+    height:400px;
+} 
+#nav-bar{
+    background: #CCFFFF;
+    border-bottom:  solid 1px black;
+    border-top:  solid 1px black;
+}
+h1{
+    color: #009966;
+}
+h1::after{
+      content: '';
+      color: red;
+    }
+    h1::first-letter{
+      color: #dc3545;
+      font-size: 50px;
+    }
+    a{
+      font-weight: bold;
+    }
+    .fullstack{
+      color:yellow
+    }
+    #target{
+      background-color: #BBBBBB
+    }
+    .daylabocuc1{
+      background-color: #ffc107;;
+    }
+    .daylabocuc2{
+      background-color: #FFCC99
+    }
+    .daylabocuc3{
+      background-color: #FFCC66
+    }
+    .daylabocuc4{
+      background-color: #FFCC33
+    }
+    .daylabocuc5{
+      background-color: #CCCC99
+    }
+    .daylabocuc6{
+      background-color: #FFCCCC
+    }
+    .daylachungchigiaithuong{
+      background-color: rgb(176,224,230)
+    }
+   .duan{
+    background-color: #CCFFFF;;
+   }
+    
+  }
+  
+ .dropdownn{
+    width: 100%;
+    height: 80px;
+    opacity: 0;
+    transition:none;
+}
+.dropdownn:hover{
+    
+    opacity: 1;
+
+} 
+.hidden {
+    display: none;
+}
+.modal-info{
+    display: none;
+}
+.modal-info.show{
+    position: relative;
+    display: block;
+}
+.modal-info.show .close-modal{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+  
+  
+ 
+
+
+  
+
+  
+  
+    
